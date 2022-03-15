@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@tailwind base;
+@tailwind components;
+.btn-primary {
+  @apply rounded text-sm py-2 shadow-md leading-none text-white bg-indigo-700 hover:bg-indigo-600 font-semibold;
+}
+.scroll-head, .blank-space-div{
+  @apply hidden;
+}
+.datepicker-strip .datepicker-month-label {
+  @apply hidden
+}
+.datepicker-strip .datepicker{
+  @apply mt-1
+}
+.category::-webkit-scrollbar, .booked::-webkit-scrollbar, .appointments::-webkit-scrollbar{
+  @apply w-1.5 rounded bg-slate-300
+}
+.category::-webkit-scrollbar-thumb, .booked::-webkit-scrollbar-thumb, .appointments::-webkit-scrollbar-thumb{
+  @apply rounded bg-slate-500
+}
+.datepicker-button-previous, .datepicker-button-next{
+  @apply !w-5 !h-5 !text-xs
+}
+.datepicker .button-previous, .datepicker .button-next{
+  @apply justify-center
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind utilities;
+@layer components {
+  .input-field {
+    @apply shadow appearance-none border rounded w-full px-3 py-2 text-gray-700 leading-tight focus:outline-none;
+  }
 }
+
