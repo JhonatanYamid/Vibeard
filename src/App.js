@@ -20,6 +20,7 @@ function App() {
       <div className="w-screen h-screen relative backdrop-filter bg-gradient-to-br from-indigo-400 via-violet-600 to-indigo-900">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/vibeard" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
