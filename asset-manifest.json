@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/vibeard/static/css/main.5c76c0ae.css",
-    "main.js": "/vibeard/static/js/main.ba5976eb.js",
-    "index.html": "/vibeard/index.html",
-    "main.5c76c0ae.css.map": "/vibeard/static/css/main.5c76c0ae.css.map",
-    "main.ba5976eb.js.map": "/vibeard/static/js/main.ba5976eb.js.map"
+    "main.css": "/static/css/main.5c76c0ae.css",
+    "main.js": "/static/js/main.ba5976eb.js",
+    "index.html": "/index.html",
+    "main.5c76c0ae.css.map": "/static/css/main.5c76c0ae.css.map",
+    "main.ba5976eb.js.map": "/static/js/main.ba5976eb.js.map"
   },
   "entrypoints": [
     "static/css/main.5c76c0ae.css",
