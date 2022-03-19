@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vibeard/static/css/main.5c76c0ae.css",
+    "main.js": "/vibeard/static/js/main.d9e43e4d.js",
+    "index.html": "/vibeard/index.html",
+    "main.5c76c0ae.css.map": "/vibeard/static/css/main.5c76c0ae.css.map",
+    "main.d9e43e4d.js.map": "/vibeard/static/js/main.d9e43e4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c76c0ae.css",
+    "static/js/main.d9e43e4d.js"
+  ]
+}
