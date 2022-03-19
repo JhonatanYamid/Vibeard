@@ -17,7 +17,7 @@ function App() {
       <link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
       <img className="absolute object-cover h-screen w-screen" src="images/background.jpg" alt="background" />
-      <div className="w-screen h-screen relative backdrop-filter bg-gradient-to-br from-indigo-300 via-violet-500 to-indigo-800">
+      <div className="w-screen h-screen relative backdrop-filter bg-gradient-to-br from-indigo-400 via-violet-600 to-indigo-900">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
